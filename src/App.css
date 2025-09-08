@@ -213,6 +213,26 @@ li img {
   font-size: 1rem;
 }
 
+.CV {
+  cursor: pointer;
+  height: 50px;
+  width: 180px;
+  background-color: #1e40af;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  font-family: 'Montserrat', serif;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 1px solid #1e40af;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.CV:hover {
+  background-color: #3960e2;
+  border: 1px solid #3960e2;
+}
+
 @media (max-width: 1024px) {
   button {
     font-size: 2.5rem;
@@ -358,5 +378,12 @@ li img {
 
   .skillsText {
     padding: 25px 0;
+  }
+
+  .CV {
+    width: 130px;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 15px;
   }
 }

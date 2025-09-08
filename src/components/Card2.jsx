@@ -1,6 +1,12 @@
 import photoProfil from '../assets/profil.jpg';
 
 function Card2() {
+  const openCV = () => {
+    window.open(
+      '/SoleadAgency/CV-BaptisteCourtadon-AlternanceDeveloppeurWeb.pdf',
+      '_blank'
+    );
+  };
   return (
     <section>
       <h1>Moi c'est Baptiste Courtadon</h1>
@@ -15,14 +21,9 @@ function Card2() {
             Si vous cherchez quelqu’un de motivé, curieux et passionné par le
             code, vous êtes au bon endroit.
           </p>
-          <a
-            href="/CV-BaptisteCourtadon-AlternanceDeveloppeurWeb.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-2 border rounded-lg hover:bg-gray-100"
-          >
-            Mon CV
-          </a>
+          <button className="CV" onClick={openCV}>
+            Voici mon CV
+          </button>
         </div>
       </div>
     </section>
