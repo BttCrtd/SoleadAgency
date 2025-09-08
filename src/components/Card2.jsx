@@ -15,6 +15,14 @@ function Card2() {
             Si vous cherchez quelqu’un de motivé, curieux et passionné par le
             code, vous êtes au bon endroit.
           </p>
+          <a
+            href="/CV-BaptisteCourtadon-AlternanceDeveloppeurWeb.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 border rounded-lg hover:bg-gray-100"
+          >
+            Mon CV
+          </a>
         </div>
       </div>
     </section>
