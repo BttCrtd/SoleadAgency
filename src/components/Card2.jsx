@@ -10,8 +10,11 @@ function Card2() {
         </div>
         <div className="presentationText">
           <p>J'ai 25 ans et je vis à Clermont-Ferrand.</p>
-          <p>Je sais à première vue on se dit "Waouh" en me voyant.</p>
-          <p>Mais je ne suis pas qu'un physique ! Je vous jure !</p>
+          <p>Je suis développeur web en recherche d’alternance.</p>
+          <p>
+            Si vous cherchez quelqu’un de motivé, curieux et passionné par le
+            code, vous êtes au bon endroit.
+          </p>
         </div>
       </div>
     </section>

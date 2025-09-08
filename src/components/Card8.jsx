@@ -1,17 +1,22 @@
 function Card8() {
   return (
     <section>
-      <h1>Bref...</h1>
-      <p>Si vous cherchez un développeur motivé et autodidacte.</p>
+      <h1>Pourquoi je frappe à votre porte ?</h1>
+      <p>Je vais être cash : je souhaiterais travailler à vos côtés.</p>
       <p>
-        Quelqu'un qui aime rire. Car oui, je ris, j'éternue, j'ai des fuites
-        ur... Ah non pas encore !
+        Je recherche aujourd’hui une alternance, convaincu que la pratique en
+        entreprise est essentielle pour renforcer mes compétences techniques et
+        adopter une véritable posture professionnelle.
       </p>
       <p>
-        Quelqu'un qui aime bosser en équipe et qui n’a pas peur de mettre les
-        mains dans le cambouis du code.
+        Votre agence, spécialisée dans la création de sites internet et de
+        solutions métiers, correspond parfaitement à mes ambitions.
       </p>
-      <p>Alors je pense qu’on a des choses à se dire !</p>
+      <p>
+        L’opportunité de travailler sur des projets variés, allant du
+        développement de maquettes à l’intégration de modules fonctionnels, me
+        motive particulièrement.
+      </p>
     </section>
   );
 }

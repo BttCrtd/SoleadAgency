@@ -13,21 +13,25 @@ function Card3() {
         </div>
         <div className="text">
           <h2>J'ai une licence en mathématiques</h2>
-          <p className="rightComments">(pas dégueu ma foi)</p>
+          <p className="rightComments">
+            (J'ai pu forger mon arme secrète : rigueur, logique et persévérance.
+            Des atouts que je mets désormais au service du code.)
+          </p>
         </div>
       </div>
       <div className="logoAndText">
         <div className="text">
-          <h2>Un master 1 MEEF second degré</h2>
+          <h2>Et un master 1 MEEF second degré</h2>
           <p className="rightComments">
-            (Mais les gosses, c'est vraiment pas pour moi...)
+            (qui m’a appris à transmettre, à communiquer et à collaborer
+            efficacement)
           </p>
         </div>
         <div className="logo">
           <FontAwesomeIcon icon={faChalkboardUser} className="myIcon" />
         </div>
       </div>
-      <p>Du coup...</p>
+      <p>Mais l'éducation nationale c'était pas pour moi. Du coup...</p>
     </section>
   );
 }

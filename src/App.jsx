@@ -11,6 +11,7 @@ import Card8 from './components/Card8';
 import Card9 from './components/Card9';
 import Card10 from './components/Card10';
 import Card11 from './components/Card11';
+import Card12 from './components/Card12';
 
 function App() {
   const cards = [
@@ -25,6 +26,7 @@ function App() {
     <Card9 />,
     <Card10 />,
     <Card11 />,
+    <Card12 />,
   ];
   const [index, setIndex] = useState(0);
 

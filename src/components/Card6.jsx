@@ -1,18 +1,51 @@
+import nodejsLogo from '../assets/logo/nodejs.png';
+import expressLogo from '../assets/logo/express.png';
+import apiLogo from '../assets/logo/api.png';
+import mongoDBLogo from '../assets/logo/mongodb.png';
+
 function Card6() {
   return (
     <section>
-      <h1>Pourquoi je frappe à votre porte ?</h1>
-      <p>Je vais être cash : je veux bosser avec vous.</p>
-      <p>
-        Parce que vos projets claquent, votre style détonne, et je me vois bien
-        coder dans cette ambiance.
-      </p>
-      <p>
-        Je cherche une alternance. Mais pas juste une alternance pour remplir
-        des cases : je veux une vraie collaboration, où je peux apprendre,
-        bidouiller, planter (un peu), corriger (beaucoup), et surtout participer
-        à créer des sites qui font… waouh.
-      </p>
+      <h1>Mes compétences ?</h1>
+      <h2>Côté Backend :</h2>
+      <div className="skillsPresentation">
+        <div>
+          <ul>
+            <li>
+              <img src={nodejsLogo} alt="Logo NodeJS" />
+              Node.js
+            </li>
+            <p className="comments">
+              (je fais tourner des serveurs plus vite que mon café le matin)
+            </p>
+            <li>
+              <img src={expressLogo} alt="Logo Express" />
+              Express
+            </li>
+            <p className="comments">
+              (mes routes sont mieux organisées que le périphérique)
+            </p>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <img src={apiLogo} alt="Logo API" />
+              API REST
+            </li>
+            <p className="comments">
+              (je livre des données fraîches, sans Uber Eats)
+            </p>
+            <li>
+              <img src={mongoDBLogo} alt="Logo MongoDB" />
+              MongoDB
+            </li>
+            <p className="comments">
+              (je gère les bases de données comme un bibliothécaire)
+            </p>
+          </ul>
+        </div>
+      </div>
     </section>
   );
 }

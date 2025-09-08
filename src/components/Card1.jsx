@@ -2,13 +2,14 @@ function Card1() {
   return (
     <section>
       <h1>
-        Salut la team <strong style={{ color: 'red' }}>Waouh</strong> !
+        Bonjour la team{' '}
+        <strong style={{ color: '#867EF1' }}>Solead Agency</strong> !
       </h1>
       <p>
-        Je ne vais pas vous sortir la lettre de motivation classique, parce que
-        ce n’est clairement pas votre style...
+        Je ne vais pas vous sortir la lettre de motivation classique, parce
+        qu’avouons-le...
       </p>
-      <p>Et pas le mien non plus...</p>
+      <p>C'est beaucoup moins fun.</p>
     </section>
   );
 }

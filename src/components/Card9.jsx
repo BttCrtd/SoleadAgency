@@ -1,8 +1,11 @@
 function Card9() {
   return (
     <section>
-      <h1>On se capte quand vous voulez !</h1>
-      <p>et je vous montre ce que je peux apporter à l’aventure Waouh.</p>
+      <h1>Mon super-pouvoir :</h1>
+      <p>
+        Trouver des solutions. Pour moi, rien n’est impossible tant qu’on garde
+        une bonne dose de créativité et de persévérance.
+      </p>
     </section>
   );
 }
